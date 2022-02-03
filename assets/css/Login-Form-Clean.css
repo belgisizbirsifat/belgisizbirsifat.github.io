@@ -1,0 +1,170 @@
+.login-clean {
+  background: #f1f7fc;
+  padding: 90px 0;
+}
+
+.login-clean form {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0px 30px 60px 30px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.login-clean .illustration {
+  text-align: center;
+  padding: 0 0 30px;
+  font-size: 100px;
+  color: #0095f6;
+  padding-top: -50px;
+}
+
+.login-clean form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+.login-clean form .btn-primary {
+  background: #0095f6;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {
+  background: #0095f6;
+}
+
+.login-clean form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.login-clean form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+.copyright-text{
+  text-align: center;
+}
+.facebook-png{
+ margin-left: 42%;
+}
+@media only screen and (max-width: 600px) {
+  .facebook-png{
+    margin-left: 30%;
+   }
+   .logo img{
+    padding-right: 24px;
+    }
+}
+nav
+{
+  background: #FFF;
+  height: 72px;
+  width: 100%;
+  position: fixed;
+}
+.logo img{
+margin-top: -24px;
+}
+.sign-up a{
+  color: #0095f6;
+}
+label.logo
+{
+
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+nav > ul
+{
+  float: right;
+  margin-right: 20px;
+}
+
+nav > ul > li
+{
+  line-height:80px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav > ul > li > a
+{
+  color:#FFF;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a.active, a:hover
+{
+  background: #0095f6;
+  transition: 0.5s;
+}
+
+.checkbtn
+{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: poiter;
+  display: none;
+}
+
+#check
+{
+  display: none;
+}
+
+/* For Desktop */
+@media (max-width: 952px)
+{
+  label.logo
+  {
+    font-size: 70px;
+    padding-left: 145px;
+  }
+  
+  nav > ul > li > a
+  {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 900px) {
+
+    nav > ul > li > a{
+  visibility:hidden
+    }
+}
+
