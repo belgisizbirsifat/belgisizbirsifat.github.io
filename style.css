@@ -1,106 +1,185 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin: 0;
+ padding: 0;
 }
-.nav-bar{
-    background-color: #2E4053
-    color: white;
-    display: flex;
-    align-items: center;
+.btk-logo{
+ margin-left: 50px;
+ margin-top: 15px;
 }
-.logo{
-    padding: 1rem;
-    flex-grow: 1;
-    width: 40px;
-    height: 120px;
-    position: relative;
-   bottom: 50px;
-    left: 30px;
+.kategori-sec h3{
+ margin-left: 290px;
+ margin-top: -40px;
+display: inline-block;
+ padding: 8px 50px 8px 20px;
+ font-size: 20px;
+ background-color: #f3f3f3;
+ 
 }
-.menu{
-    flex-grow: 1;
+.kategori-sec img{
+ padding-left: 20px;
+ padding-left: 30px;
+ margin-top: 5px;
 }
-.menu ul{
-    list-style-type: none;
-    display: flex;
+.arama-kutusu{
+ width: 370px;
+ height: 45px;
+ background-color: #f3f3f3;
+ margin-left: 490px;
+ margin-top: -45px;
+ font-size: 20px;
 }
-.menu ul li{
-flex-grow: 11;
+.search-icon{
+ float: right;
+margin-top: 8px;
+margin-right: 15px;
 }
-.menu ul li a{
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
+.birinci-icon{
+margin-right: 250px;
+margin-top: -50px;
+float: right;
+text-align: center;
 }
-.banner{
-    background-image: url(resimler/yuvarlak.svg);
-background-color: #ECF0F1;
-background-repeat: no-repeat;
-background-size: 700px;
-}
-.banner-text{
-    
-    padding: 10% 0;
-}
-.banner-text-item{
-    
-    width: 70%;
-    margin: auto;
-}
-.banner-text-item h2{
-    font-size: 7rem;
-    margin-bottom: 1.2rem;
-    color: #3498DB;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    top: 10px;
-    left: 380px;
-}
-.banner-text-item p{
-    font-size: 2rem;
-  line-height: 1.5;
-    color: #8E44AD ;
-    font-family:cursive;
-    position: relative;
-    top: 60px;
-    left: 50px;
-    text-align: center;
-}
-.main-content{
-    background-color: #ECF0F1;
-    background-image:url(resimler/svg1.png);
-display: flex;
-flex-direction: row;
-padding: 1% 50;
-background-repeat:space;
-}
-.main-item{
-    flex-grow: 1;
-    padding: 5%;
-    line-height: 2rem;
-}
-.main-item p{
-  margin-top: 2rem;
-  font-size: 30px;
-  color: #ECF0F1;
+.ikinci-icon{
+ margin-right: -180px;
+ margin-top: -50px;
+ float: right;
+ text-align: center;
+ }
+ .üçüncü-icon{
+  margin-right: -260px;
+  margin-top: -50px;
+  float: right;
   text-align: center;
-}
-.kedim{
+  }
+ .üçlü-container a{
+text-decoration: none;
+color: black;
+  }
+  .üçlü-container a:hover{
+   color: #2c3e50;
+  }
+  .ilk-linkler ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+   padding-left: 30px;
+  }
+  .ilk-linkler ul li{
+  margin-right: 60px;
+   margin-left: 10px;
+   margin-top: 60px;
+   font-size: 20px;
+   padding-right: 30px;
+  }
+  .ilk-linkler a{
+   color: #2c3e50;
+   text-decoration: none;
+  }
+  .fire{
+   position: relative;
+   top: 30px;
+   right: 180px;
+  }
+  .fırsatlar-text{
+    color: #e76f51;
+  }
+  .giris-yap-text{
+font-size: 19px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 35px;
+word-spacing: 5;
+  }
+.box-1{
+    width: 480px;
+    height: 320px;
+    background-color: #e76f51;
     position: relative;
-    bottom: 980px;
-    left: 770px;
+    top: 100px;
+    left: 230px;
 }
-.yuvarlaklar{
+.box-2{
+  width: 480px;
+  height: 320px;
+    background-image: url(28.jpg);
+    background-size: 100%;
     position: relative;
-    bottom: 1880px;
-    left: 1550px;
-}
-.buyuky{
+    top: -220px;
+    left: 700px;
+  }
+  .box-1 h1{
+    color: white;
+    font-family: sans-serif;
     position: relative;
-    bottom: 2900px;
-}
-
-
+    top: 90px;
+    left: 30px;
+    font-size: 25px;
+  }
+  .box-1 p{
+    color: white;
+    font-family: initial;
+    position: relative;
+    top: 110px;
+    left: 30px;
+    font-size: 19px;
+  }
+  .box-1 a{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10 5 10 5;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    left: 30px;
+  }
+  .box-1 a img{
+    top: 5px;
+    position: relative;
+  }
+  .box-1-küçük{
+    background-color: #747d8c;
+    width: 400px;
+    height: 100px;
+    position: relative;
+   top: -130px;
+   left: 260px;
+  }
+  .box-2-küçük{
+    background-color: #747d8c;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top: -230px;
+    left: 740px;
+  }
+  .box-1-küçük img{
+    right: -30px;
+    position: relative;
+    top: -10px;
+  }
+  .box-2-küçük img{
+    right: -30px;
+    position: relative;
+    top: 5px;
+  }
+  .box-1-küçük p{
+    color: white;
+    font-family: initial;
+    position: relative;
+    top: -67px;
+    left: 170px;
+    width: 200px;
+  }
+  .box-2-küçük p{
+    color: white;
+    font-family: initial;
+    position: relative;
+    top: -55px;
+    left: 160px;
+    width: 240px;
+  }
